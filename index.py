@@ -7,8 +7,4 @@ books = pd.read_csv('data/book_top_search.csv',delimiter=';') # указывае
 print(books.shape)
 print(books)
 
-
-
-
-
-
+books.head().to_csv('data/five_books.csv') #записали первые пять строк в csv файл
