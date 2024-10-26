@@ -1,0 +1,2 @@
+# pandas
+Изучаю pandas
